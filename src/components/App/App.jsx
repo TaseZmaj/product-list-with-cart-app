@@ -42,11 +42,23 @@ function App() {
     );
   }
 
+  //Understanding #1 (WRONG)
   //if the function is not async, the handleResetDessertQuantity will not trigger as intended ->
   //the resetDessertQuantity is a state which triggers a rerender of all the DessertItem components,
   //if the handleResetDessertQuantity is not async, the handleResetDessertQuantity will not work as expected,
   //the quantities will not be reset because the value of resetDessertQuantity will change from
   //false to true to false "too fast".  At least this is how I interprit what's happening
+
+  //Understanding #2
+  //I studied a bit and found out exactly what was happening here:
+  //The reason that the 2 functions below are written with async and await is because
+  //React bacthes state updates together instead of rendering them one by one.
+  //They are all rendered in one go, HOWEVER, in this particular case, that is
+  //not what I wanted to do.  I wanted for a component that was further down the
+  //element tree to change based on this state update.  However if the function
+  //below (this one -> await handleResetDessertQuantity()) was not async
+  //it would be set in the batch to trigger twice and, in a way,
+  // it would "do nothing".
   async function handleResetDessertQuantity() {
     setResetDessertQuantity((v) => !v);
   }
@@ -60,7 +72,7 @@ function App() {
     else {
       setShowConfirmModal(false);
       setSelectedDesserts([]);
-      await handleResetDessertQuantity();
+      await handleResetDessertQuantity(); //because state updates are batched, I had to use await with async
       handleResetDessertQuantity();
     }
   }
