@@ -14,7 +14,11 @@
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
 </p>
 
-![Product List with Cart screenshot](public/screenshot.png)
+<p align="center">
+  <img src="demos/cake-app-demo-1.gif" alt="Desktop layout: adding desserts to the cart, changing quantities and confirming the order" width="100%" />
+  <br>
+  <em>Desktop: add desserts to the cart, adjust quantities, remove items and confirm the order</em>
+</p>
 
 ## 📌 About this project
 
@@ -30,6 +34,12 @@ Users can:
 - 🔄 Reset their selections when they click "Start New Order"
 - 📱 View the optimal layout for their device's screen size
 - 🖱️ See hover and focus states for all interactive elements on the page
+
+<p align="center">
+  <img src="demos/cake-app-demo-2.gif" alt="Mobile layout: scrolling the dessert list and managing the cart on a small screen" width="320" />
+  <br>
+  <em>Mobile: the same experience, adapted to a small screen</em>
+</p>
 
 ## 🧰 Tech stack
 
@@ -49,7 +59,7 @@ In the future I want to focus on creating more reusable components, managing sta
 
 - [React Motion tutorial](https://www.youtube.com/watch?v=31y7-k3ZG0g&t=475s): helped me when I was implementing the animations
 - [Motion docs](https://motion.dev/docs/react-quick-start): the official documentation, which also helped with the animations
-- [The Ultimate React Course 2024: React, Next.js, Redux &amp; More](https://www.udemy.com/course/the-ultimate-react-course/): the course I'm completing. It greatly helped me understand the proper use of state, how to share state between components, derived state, and key React development concepts and patterns.
+- [The Ultimate React Course 2024: React, Next.js, Redux & More](https://www.udemy.com/course/the-ultimate-react-course/): the course I'm completing. It greatly helped me understand the proper use of state, how to share state between components, derived state, and key React development concepts and patterns.
 
 ## 🛠️ Local development
 
@@ -60,11 +70,13 @@ In the future I want to focus on creating more reusable components, managing sta
    ```
    npm install
    ```
+
 2. Start the development server:
 
    ```
    npm run dev
    ```
+
 3. Open the URL shown in the terminal (by default [http://localhost:5173](http://localhost:5173)).
 
 ## 👤 Author
