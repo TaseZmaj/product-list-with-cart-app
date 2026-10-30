@@ -19,12 +19,12 @@ function Button({
       >
         <img
           onClick={() => handleDecrementQuantity(dessert)}
-          src="../../../public/assets/images/icon-decrement-quantity.svg"
+          src="/assets/images/icon-decrement-quantity.svg"
         />
         <p>{quantity}</p>
         <img
           onClick={() => handleIncrementQuantity(dessert)}
-          src="../../../public/assets/images/icon-increment-quantity.svg"
+          src="/assets/images/icon-increment-quantity.svg"
         />
       </button>
     );
@@ -36,7 +36,7 @@ function Button({
         onClick={() => handleSelectDessert(dessert, quantity)}
         className={`${styles.btn} ${styles.addCart}`}
       >
-        <img src="../../../public/assets/images/icon-add-to-cart.svg" />
+        <img src="/assets/images/icon-add-to-cart.svg" />
         <p className={styles.add}>Add to Cart</p>
       </button>
     );

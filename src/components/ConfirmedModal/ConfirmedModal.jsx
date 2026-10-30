@@ -61,7 +61,7 @@ function ConfirmedModal({ handleConfirmOrder, selectedDesserts }) {
         className={styles.confirmedContainer}
       >
         <div>
-          <img src="../../../public/assets/images/icon-order-confirmed.svg" />
+          <img src="/assets/images/icon-order-confirmed.svg" />
           <h1>Order Confirmed</h1>
           <p>We hope you enjoy your food!</p>
         </div>

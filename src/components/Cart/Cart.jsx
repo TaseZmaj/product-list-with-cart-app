@@ -54,7 +54,7 @@ function Cart({ handleConfirmOrder, handleDeselectDesert, selectedDesserts }) {
           <>
             <h2>Your Cart (0)</h2>
             <div className={styles.imgContainer}>
-              <img src="../../../public/assets/images/illustration-empty-cart.svg" />
+              <img src="/assets/images/illustration-empty-cart.svg" />
             </div>
             <p className={styles.empty}>Your added items will appear here</p>
           </>

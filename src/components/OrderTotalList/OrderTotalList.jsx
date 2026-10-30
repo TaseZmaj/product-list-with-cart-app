@@ -22,7 +22,7 @@ function OrderTotalList({
             {type === "cart" && (
               <img
                 onClick={() => handleDeselectDesert(dessert.name)}
-                src="../../../public/assets/images/icon-remove-item.svg"
+                src="/assets/images/icon-remove-item.svg"
               />
             )}
             {type === "modal" &&
