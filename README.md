@@ -84,4 +84,4 @@ In the future I want to focus on creating more reusable components, managing sta
 ## Author
 
 - GitHub: [@TaseZmaj](https://github.com/TaseZmaj)
-- LinkedIn: [Stefan Tasevski](https://www.linkedin.com/in/stefan-tasevski-32b959312/)
+- LinkedIn: [Stefan Tasevski](https://www.linkedin.com/in/stefan-tasevski-dev/)
