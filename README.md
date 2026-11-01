@@ -4,7 +4,7 @@
 
 <!-- TODO: once deployed, add: 🌐 **Live demo:** [your-url](https://your-url) -->
 
-**Live demo:** [https://tasezmaj-product-list-with-cart.vercel.app](tasezmaj-product-list-with-cart.vercel.app)
+**Live demo:** [tasezmaj-product-list-with-cart.vercel.app](https://tasezmaj-product-list-with-cart.vercel.app)
 
 <p align="left">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
